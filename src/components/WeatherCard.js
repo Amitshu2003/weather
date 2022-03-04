@@ -19,7 +19,7 @@ const Weathercard = ({
   return (
     <div className="flex flex-col bg-white font-medium p-6  justify-center items-center w-[50%] h-[50%] mx-auto mt-6 rounded-xl">
       <div className="flex flex-row justify-center items-center p-1 sm:p-3 w-[100%]">
-        <div className="text-2xl sm:text-4xl text-slate-700 font-bold">{temp}&deg;</div>
+        <div className="text-2xl sm:text-4xl text-slate-700 font-bold">{temp}&deg;C</div>
         <div className="p-4 text-xl text-slate-700">
           <div>{weathermood}</div>
           <div>
